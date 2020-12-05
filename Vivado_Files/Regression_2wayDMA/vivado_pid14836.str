@@ -1,0 +1,1406 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 14836
+License: Customer
+
+Current time: 	Wed Nov 18 07:22:09 PST 2020
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 315 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	mems_user
+User home directory: C:/Users/mems_user
+User working directory: C:/Projects/Example/Vivado_Files/Regression
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/mems_user/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/mems_user/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/mems_user/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Projects/Example/Vivado_Files/Regression/vivado.log
+Vivado journal file location: 	C:/Projects/Example/Vivado_Files/Regression/vivado.jou
+Engine tmp dir: 	C:/Projects/Example/Vivado_Files/Regression/.Xil/Vivado-14836-hrlit1092
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: C:\Xilinx\Xilinx.lic
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 641 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 86 MB (+87642kb) [00:00:05]
+// [Engine Memory]: 567 MB (+442767kb) [00:00:05]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Projects\Example\Vivado_Files\Regression\Regression.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Projects/Example/Vivado_Files/Regression/Regression.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 676 MB. GUI used memory: 44 MB. Current time: 11/18/20, 7:22:11 AM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+10783kb) [00:00:18]
+// [Engine Memory]: 793 MB (+207333kb) [00:00:18]
+// [GUI Memory]: 114 MB (+9238kb) [00:00:19]
+// [Engine Memory]: 848 MB (+16423kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  3590 ms.
+// Tcl Message: open_project C:/Projects/Example/Vivado_Files/Regression/Regression.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Example/Vivado_HLS_Files'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Regression_newShape/HLS_IP/backward_lite'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1338 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 885.449 ; gain = 256.320 
+// Project name: Regression; location: C:/Projects/Example/Vivado_Files/Regression; part: xc7z020clg400-1
+// [Engine Memory]: 1,261 MB (+388106kb) [00:00:24]
+// [GUI Memory]: 133 MB (+13495kb) [00:00:24]
+dismissDialog("Open Project"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,308 MB. GUI used memory: 68 MB. Current time: 11/18/20, 7:22:26 AM PST
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,308 MB. GUI used memory: 68 MB. Current time: 11/18/20, 7:52:27 AM PST
+// Elapsed time: 3580 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1819 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1744.586 ; gain = 0.000 
+// 'bA' command handler elapsed time: 9 seconds
+dismissDialog("Open Block Design"); // bx (cp)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (cQ, cp)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// bx (cp):  Refresh IP Catalog : addNotify
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Example/Vivado_HLS_Files'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Regression_newShape/HLS_IP/backward_lite'. 
+// TclEventType: IP_SUMMARY_RESULTS
+// [GUI Memory]: 142 MB (+2804kb) [01:00:23]
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,308 MB. GUI used memory: 81 MB. Current time: 11/18/20, 8:22:27 AM PST
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// bx (cp):  Upgrade IP : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd' 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded custom_backward_backward_lite_0_0 (Backward_lite 1.0) from revision 2011111243 to revision 2011180821 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  Wrote  : <C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/ui/bd_493eacf1.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Projects/Example/Vivado_Files/Regression/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet 
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Resetting Runs"); // bx (cp)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.vhd 
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/sim/custom_backward.vhd VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hdl/custom_backward_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block backward_lite_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block equation_matrix_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward.hwh Generated Block Design Tcl file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward_bd.tcl Generated Hardware Definition File C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_0, cache-ID = 160be3f11b4d70a7; cache size = 178.460 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_1, cache-ID = b06d29d4be7f4ec1; cache size = 178.460 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_0, cache-ID = f3327471a18a06a1; cache size = 178.460 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_1, cache-ID = f3327471a18a06a1; cache size = 178.460 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_2, cache-ID = 345cd45a3bd214f7; cache size = 178.460 MB. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 18 08:22:59 2020] Launched custom_backward_backward_lite_0_0_synth_1, synth_1... Run output will be captured here: custom_backward_backward_lite_0_0_synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/custom_backward_backward_lite_0_0_synth_1/runme.log synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/synth_1/runme.log [Wed Nov 18 08:23:00 2020] Launched impl_1... Run output will be captured here: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1744.586 ; gain = 0.000 
+// Elapsed time: 17 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 158 MB (+9012kb) [01:04:09]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 514 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (cp):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1450 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,397 MB. GUI used memory: 81 MB. Current time: 11/18/20, 8:31:38 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,641 MB. GUI used memory: 79 MB. Current time: 11/18/20, 8:31:52 AM PST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,120 MB. GUI used memory: 79 MB. Current time: 11/18/20, 8:32:00 AM PST
+// [Engine Memory]: 2,120 MB (+834788kb) [01:09:59]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2018.3/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.6s
+// [Engine Memory]: 2,232 MB (+5952kb) [01:10:01]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1946 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 1871 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7z020clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2261.680 ; gain = 22.773 
+// Tcl Message: Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2261.680 ; gain = 22.773 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2261.680 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 14 instances were transformed.   RAM128X1S => RAM128X1S (MUXF7, RAMS64E, RAMS64E): 1 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances   RAM32X1S => RAM32X1S (RAMS32): 1 instances   SRLC32E => SRL16E: 7 instances  
+// Tcl Message: INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2381.227 ; gain = 636.641 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: METHODOLOGY_ADDED
+// [GUI Memory]: 169 MB (+3458kb) [01:10:03]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.5s
+// Device view-level: 0.0
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 180 MB (+2373kb) [01:10:08]
+// [GUI Memory]: 189 MB (+194kb) [01:10:08]
+// [Engine Memory]: 2,344 MB (+805kb) [01:10:08]
+// [GUI Memory]: 199 MB (+690kb) [01:10:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  5296 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dQ' command handler elapsed time: 38 seconds
+// Elapsed time: 38 seconds
+dismissDialog("Open Implemented Design"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,446 MB. GUI used memory: 145 MB. Current time: 11/18/20, 8:32:17 AM PST
+// [Engine Memory]: 2,462 MB (+1000kb) [01:20:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,466 MB. GUI used memory: 144 MB. Current time: 11/18/20, 8:47:57 AM PST
+// Elapsed time: 1030 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design {C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/backward_lite_0 ; false ; custom_backward_backward_lite_0_0 [Backward_lite] (Up-to-date) ; No changes required ;  ; Backward_lite ; 1.0 (Rev. 2011180821) ; 1.0 (Rev. 2011180821) ; custom_backward_backward_lite_0_0 [Backward_lite] (Up-to-date) ; xc7z020clg400-1", 6, "No changes required", 3, false); // B (Q, cp)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (cQ, cp)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// bx (cp):  Refresh IP Catalog : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Example/Vivado_HLS_Files'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Regression_newShape/HLS_IP/backward_lite'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// [Engine Memory]: 2,588 MB (+3205kb) [01:27:39]
+// [GUI Memory]: 210 MB (+104kb) [01:27:39]
+// [Engine Memory]: 2,753 MB (+36660kb) [01:27:40]
+// TclEventType: IP_SUMMARY_RESULTS
+// [GUI Memory]: 221 MB (+926kb) [01:27:40]
+// Tcl Message: report_ip_status -name ip_status 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 156 MB. Current time: 11/18/20, 8:49:42 AM PST
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+// Elapsed time: 33 seconds
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd' 
+// bx (cp):  Upgrade IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded custom_backward_backward_lite_0_0 (Backward_lite 1.0) from revision 2011180821 to revision 2011180848 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Projects/Example/Vivado_Files/Regression/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet 
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Resetting Runs"); // bx (cp)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.vhd 
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/sim/custom_backward.vhd VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hdl/custom_backward_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block backward_lite_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block equation_matrix_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward.hwh Generated Block Design Tcl file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward_bd.tcl Generated Hardware Definition File C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_0, cache-ID = 160be3f11b4d70a7; cache size = 198.137 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_1, cache-ID = b06d29d4be7f4ec1; cache size = 198.137 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_0, cache-ID = f3327471a18a06a1; cache size = 198.137 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_1, cache-ID = f3327471a18a06a1; cache size = 198.137 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_2, cache-ID = 345cd45a3bd214f7; cache size = 198.137 MB. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 18 08:50:41 2020] Launched custom_backward_backward_lite_0_0_synth_1, synth_1... Run output will be captured here: custom_backward_backward_lite_0_0_synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/custom_backward_backward_lite_0_0_synth_1/runme.log synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/synth_1/runme.log [Wed Nov 18 08:50:41 2020] Launched impl_1... Run output will be captured here: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 3380.875 ; gain = 0.000 
+// Elapsed time: 14 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// [GUI Memory]: 234 MB (+2057kb) [01:31:05]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/18/20, 9:19:43 AM PST
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 2654 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 9:49:43 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 10:19:44 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 144 MB. Current time: 11/18/20, 10:49:44 AM PST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1158 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/18/20, 11:19:44 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 11:49:45 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 12:19:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 12:49:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 1:19:46 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 1:49:46 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 2:19:47 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 2:49:47 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 3:19:47 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 3:49:48 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 4:19:48 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 4:49:48 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 5:19:49 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/18/20, 5:49:49 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 6:19:50 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 6:49:50 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 7:19:50 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 7:49:51 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 136 MB. Current time: 11/18/20, 8:19:51 PM PST
+// Elapsed time: 39858 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (cQ, cp)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// bx (cp):  Refresh IP Catalog : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Example/Vivado_HLS_Files'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Regression_newShape/HLS_IP/backward_lite'. 
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// bx (cp):  Upgrade IP : addNotify
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded custom_backward_backward_lite_0_0 (Backward_lite 1.0) from revision 2011180848 to revision 2011182038 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Projects/Example/Vivado_Files/Regression/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet 
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Resetting Runs"); // bx (cp)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.vhd 
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/sim/custom_backward.vhd VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hdl/custom_backward_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block backward_lite_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block equation_matrix_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward.hwh Generated Block Design Tcl file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward_bd.tcl Generated Hardware Definition File C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_0, cache-ID = 160be3f11b4d70a7; cache size = 244.013 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_1, cache-ID = b06d29d4be7f4ec1; cache size = 244.013 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_0, cache-ID = f3327471a18a06a1; cache size = 244.013 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_1, cache-ID = f3327471a18a06a1; cache size = 244.013 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_2, cache-ID = 345cd45a3bd214f7; cache size = 244.013 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 18 20:39:55 2020] Launched custom_backward_backward_lite_0_0_synth_1, synth_1... Run output will be captured here: custom_backward_backward_lite_0_0_synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/custom_backward_backward_lite_0_0_synth_1/runme.log synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/synth_1/runme.log [Wed Nov 18 20:39:55 2020] Launched impl_1... Run output will be captured here: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 3380.875 ; gain = 0.000 
+// Elapsed time: 14 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bx (cp):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/18/20, 8:49:52 PM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 2121 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/18/20, 9:19:52 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 9:49:52 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 10:19:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 10:49:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 11:19:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/18/20, 11:49:54 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 12:19:54 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 12:49:55 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 1:19:55 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 1:49:55 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 2:19:56 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 2:49:56 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 3:19:56 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 156 MB. Current time: 11/19/20, 3:49:57 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/19/20, 4:19:57 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 4:49:58 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 5:19:58 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 5:49:58 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 6:19:59 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 6:49:59 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 7:19:59 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 7:50:00 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 157 MB. Current time: 11/19/20, 8:20:00 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 8:50:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 9:20:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 9:50:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 158 MB. Current time: 11/19/20, 10:20:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 10:50:02 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/19/20, 11:20:02 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 11:50:03 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 158 MB. Current time: 11/19/20, 12:20:03 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 12:50:04 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/19/20, 1:20:04 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 1:50:04 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 2:20:05 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 2:50:05 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 3:20:06 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 3:50:06 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 4:20:06 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 4:50:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 5:20:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 5:50:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 6:20:08 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 6:50:08 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 156 MB. Current time: 11/19/20, 7:20:08 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 7:50:09 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 8:20:09 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 8:50:10 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 9:20:10 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 9:50:10 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 10:20:11 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 10:50:11 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/19/20, 11:20:12 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/19/20, 11:50:12 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 12:20:12 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 12:50:13 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 1:20:13 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 1:50:13 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/20/20, 2:20:14 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 2:50:14 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 3:20:15 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 3:50:15 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 4:20:15 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 4:50:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 5:20:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 158 MB. Current time: 11/20/20, 5:50:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 6:20:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 6:50:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 157 MB. Current time: 11/20/20, 7:20:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 7:50:18 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/20/20, 8:20:18 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 8:50:19 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 9:20:19 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 9:50:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 10:20:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 10:50:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 11:20:21 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 11:50:21 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 146 MB. Current time: 11/20/20, 12:20:21 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 12:50:22 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 1:20:22 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 145 MB. Current time: 11/20/20, 1:50:23 PM PST
+// WARNING: HEventQueue.dispatchEvent() is taking  3226 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 143 MB. Current time: 11/20/20, 2:20:23 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 142 MB. Current time: 11/20/20, 2:50:23 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 142 MB. Current time: 11/20/20, 3:20:24 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 142 MB. Current time: 11/20/20, 3:50:24 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 142 MB. Current time: 11/20/20, 4:20:25 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 142 MB. Current time: 11/20/20, 4:50:25 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 142 MB. Current time: 11/20/20, 5:20:25 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 5:50:26 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 6:20:26 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 6:50:26 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 7:20:27 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 7:50:27 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 8:20:28 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 8:50:28 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 9:20:28 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 9:50:29 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 10:20:29 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 10:50:30 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 11:20:30 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/20/20, 11:50:30 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 12:20:31 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 12:50:31 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 1:20:31 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 1:50:32 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 138 MB. Current time: 11/21/20, 2:20:32 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 2:50:33 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 3:20:33 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 3:50:33 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 4:20:34 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 4:50:34 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 137 MB. Current time: 11/21/20, 5:20:34 AM PST
+// Elapsed time: 202341 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (cQ, cp)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Example/Vivado_HLS_Files'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Regression_newShape/HLS_IP/backward_lite'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// bx (cp):  Refresh IP Catalog : addNotify
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h (cQ, cp)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// bx (cp):  Upgrade IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded custom_backward_backward_lite_0_0 (Backward_lite 1.0) from revision 2011182038 to revision 2011210506 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Projects/Example/Vivado_Files/Regression/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet 
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cw' command handler elapsed time: 5 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Resetting Runs"); // bx (cp)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.vhd 
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/sim/custom_backward.vhd VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hdl/custom_backward_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block backward_lite_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block equation_matrix_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward.hwh Generated Block Design Tcl file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward_bd.tcl Generated Hardware Definition File C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_0, cache-ID = 160be3f11b4d70a7; cache size = 291.407 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_1, cache-ID = b06d29d4be7f4ec1; cache size = 291.407 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_0, cache-ID = f3327471a18a06a1; cache size = 291.407 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_1, cache-ID = f3327471a18a06a1; cache size = 291.407 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_2, cache-ID = 345cd45a3bd214f7; cache size = 291.407 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Nov 21 05:28:29 2020] Launched custom_backward_backward_lite_0_0_synth_1, synth_1... Run output will be captured here: custom_backward_backward_lite_0_0_synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/custom_backward_backward_lite_0_0_synth_1/runme.log synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/synth_1/runme.log [Sat Nov 21 05:28:29 2020] Launched impl_1... Run output will be captured here: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 3380.875 ; gain = 0.000 
+// Elapsed time: 16 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 223, 363, 1249, 587, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+// [GUI Memory]: 246 MB (+339kb) [70:08:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 166 MB. Current time: 11/21/20, 5:50:35 AM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/21/20, 6:20:35 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 6:50:35 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 7:20:36 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 7:50:36 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 8:20:36 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 8:50:37 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 9:20:37 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 9:50:37 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 10:20:37 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 10:50:38 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 11:20:38 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 11:50:38 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 12:20:39 PM PST
+// Elapsed time: 26087 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bx (cp):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 12:50:39 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 1:20:39 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 1:50:39 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 2:20:40 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 2:50:40 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 3:20:40 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 3:50:41 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 4:20:41 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 4:50:41 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 5:20:42 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 5:50:42 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 6:20:42 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 6:50:42 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 7:20:43 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 7:50:43 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 8:20:43 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 8:50:44 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 9:20:44 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 9:50:44 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 10:20:44 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 10:50:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 11:20:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/21/20, 11:50:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 12:20:46 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 12:50:46 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 1:20:46 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 1:50:47 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 2:20:47 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 2:50:47 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 3:20:47 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 3:50:48 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 4:20:48 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 4:50:48 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 5:20:49 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 5:50:49 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 6:20:49 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 6:50:49 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 7:20:50 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 7:50:50 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 8:20:50 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 8:50:51 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 9:20:51 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 9:50:51 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 10:20:51 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 10:50:52 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 11:20:52 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 11:50:52 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 12:20:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 12:50:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 1:20:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 1:50:53 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 2:20:54 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 2:50:54 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 3:20:54 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 3:50:55 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 4:20:55 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 4:50:55 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 5:20:56 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 5:50:56 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 6:20:56 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 6:50:56 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 7:20:57 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 7:50:57 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 8:20:57 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 8:50:58 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 9:20:58 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 9:50:58 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 10:20:58 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 10:50:59 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 11:20:59 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/22/20, 11:50:59 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 12:21:00 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 12:51:00 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 1:21:00 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 1:51:00 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 2:21:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 2:51:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 3:21:01 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 3:51:02 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 4:21:02 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 4:51:02 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 5:21:02 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 5:51:03 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 6:21:03 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 6:51:03 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 7:21:04 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 7:51:04 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 8:21:04 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 8:51:05 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 9:21:05 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 9:51:05 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 10:21:05 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 10:51:06 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 11:21:06 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 11:51:06 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/23/20, 12:21:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 12:51:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 1:21:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 1:51:07 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/23/20, 2:21:08 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 140 MB. Current time: 11/23/20, 2:51:08 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 3:21:09 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 3:51:09 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 4:21:09 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 4:51:09 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 5:21:10 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 5:51:10 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 6:21:10 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 6:51:11 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 7:21:11 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 7:51:11 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 8:21:11 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 8:51:12 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 9:21:12 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 9:51:12 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 10:21:13 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 10:51:13 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 11:21:13 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/23/20, 11:51:13 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/24/20, 12:21:14 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/24/20, 12:51:14 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/24/20, 1:21:14 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 141 MB. Current time: 11/24/20, 1:51:15 AM PST
+// Elapsed time: 221193 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (cQ, cp)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// bx (cp):  Refresh IP Catalog : addNotify
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Example/Vivado_HLS_Files'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Regression_newShape/HLS_IP/backward_lite'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+// Elapsed time: 25 seconds
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// bx (cp):  Upgrade IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded custom_backward_backward_lite_0_0 (Backward_lite 1.0) from revision 2011210506 to revision 2011240207 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Projects/Example/Vivado_Files/Regression/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet 
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+// 'cw' command handler elapsed time: 3 seconds
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Resetting Runs"); // bx (cp)
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:\Projects\Example\Vivado_Files\Regression\Regression.srcs\sources_1\bd\custom_backward\custom_backward.bd>  
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.vhd 
+// Tcl Message: VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/sim/custom_backward.vhd VHDL Output written to : C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hdl/custom_backward_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block backward_lite_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block equation_matrix_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward.hwh Generated Block Design Tcl file C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/hw_handoff/custom_backward_bd.tcl Generated Hardware Definition File C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/synth/custom_backward.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_0, cache-ID = 160be3f11b4d70a7; cache size = 339.030 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_pc_1, cache-ID = b06d29d4be7f4ec1; cache size = 339.030 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_0, cache-ID = f3327471a18a06a1; cache size = 339.030 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_1, cache-ID = f3327471a18a06a1; cache size = 339.030 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP custom_backward_auto_us_2, cache-ID = 345cd45a3bd214f7; cache size = 339.030 MB. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Nov 24 02:11:04 2020] Launched custom_backward_backward_lite_0_0_synth_1, synth_1... Run output will be captured here: custom_backward_backward_lite_0_0_synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/custom_backward_backward_lite_0_0_synth_1/runme.log synth_1: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/synth_1/runme.log [Tue Nov 24 02:11:04 2020] Launched impl_1... Run output will be captured here: C:/Projects/Example/Vivado_Files/Regression/Regression.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 3523.758 ; gain = 38.109 
+// Elapsed time: 15 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+// Elapsed time: 95 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 161 MB. Current time: 11/24/20, 2:21:15 AM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 2:51:15 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 3:21:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 3:51:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 4:21:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 4:51:16 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 5:21:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 5:51:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 6:21:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 6:51:17 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 7:21:18 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 7:51:18 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 8:21:18 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 8:51:19 AM PST
+// Elapsed time: 25604 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 168 MB. Current time: 11/24/20, 9:21:19 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 149 MB. Current time: 11/24/20, 9:51:19 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 10:21:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 10:51:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 11:21:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 199 MB. Current time: 11/24/20, 11:51:20 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 12:21:21 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,807 MB. GUI used memory: 150 MB. Current time: 11/24/20, 12:51:21 PM PST

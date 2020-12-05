@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 18 07:21:55 2020
+# Process ID: 14836
+# Current directory: C:/Projects/Example/Vivado_Files/Regression
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22628 C:\Projects\Example\Vivado_Files\Regression\Regression.xpr
+# Log file: C:/Projects/Example/Vivado_Files/Regression/vivado.log
+# Journal file: C:/Projects/Example/Vivado_Files/Regression\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Projects/Example/Vivado_Files/Regression/Regression.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {C:/Projects/Example/Vivado_Files/Regression/Regression.srcs/sources_1/bd/custom_backward/custom_backward.bd}
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:hls:backward_lite:1.0 [get_ips  custom_backward_backward_lite_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips custom_backward_backward_lite_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 

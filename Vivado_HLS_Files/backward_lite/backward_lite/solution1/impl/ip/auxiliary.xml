@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="backward_lite" xd:componentRef="backward_lite" xd:initiationInterval="1084954" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="in_stream[].data" xd:originalName="in_stream" xd:direction="in" xd:interfaceRef="in_stream" xd:busTypeRef="axis" xd:arraySize="2688" xd:dataWidth="32"/>
+  <xd:arg xd:name="in_stream[].last" xd:originalName="in_stream" xd:direction="in" xd:interfaceRef="in_stream" xd:busTypeRef="axis" xd:arraySize="2688" xd:dataWidth="1"/>
+  <xd:arg xd:name="out_stream[].data" xd:originalName="out_stream" xd:direction="out" xd:interfaceRef="out_stream" xd:busTypeRef="axis" xd:arraySize="434" xd:dataWidth="32"/>
+  <xd:arg xd:name="out_stream[].last" xd:originalName="out_stream" xd:direction="out" xd:interfaceRef="out_stream" xd:busTypeRef="axis" xd:arraySize="434" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="1082009" xd:worst-case="1084953" xd:average-case="1083481"/>
+  <xd:resourceEstimates xd:LUT="8595" xd:FF="4952" xd:BRAM="11" xd:DSP="33"/>
+</xd:acceleratorMap>

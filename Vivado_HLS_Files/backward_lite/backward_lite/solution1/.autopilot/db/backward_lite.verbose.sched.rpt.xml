@@ -1,0 +1,58 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'backward_lite'" level="0">
+<item name = "Date">Sat Dec  5 00:32:09 2020
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">backward_lite</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.657, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">1082009, 1084953, 1082009, 1084953, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">192, 192, 3, -, -, 64, no</column>
+<column name="- Loop 2">256, 3200, 4 ~ 50, -, -, 64, no</column>
+<column name="- Loop 3">3072, 3072, 3, -, -, 1024, no</column>
+<column name="- Loop 4">3072, 3072, 3, -, -, 1024, no</column>
+<column name="- Loop 5">672, 672, 3, -, -, 224, no</column>
+<column name="- Loop 6">864, 864, 3, -, -, 288, no</column>
+<column name="- Loop 7">434, 434, 1, -, -, 434, no</column>
+<column name="- Loop 8">1070400, 1070400, 33450, -, -, 32, no</column>
+<column name=" + Loop 8.1">33448, 33448, 16724, -, -, 2, no</column>
+<column name="  ++ Loop 8.1.1">16720, 16720, 1045, -, -, 16, no</column>
+<column name="   +++ Loop 8.1.1.1">1040, 1040, 65, -, -, 16, no</column>
+<column name="    ++++ Loop 8.1.1.1.1">56, 56, 8, -, -, 7, no</column>
+<column name="- Loop 9">3038, 3038, 7, -, -, 434, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>
